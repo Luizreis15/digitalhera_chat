@@ -963,6 +963,28 @@ body.reduce-motion .float-badge, body.reduce-motion .cta-float { animation: none
   .microproof { gap: 14px; }
 }
 
+/* ── Botão Entrar (header) ── */
+.btn-outline-indigo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--indigo);
+  color: var(--indigo);
+  background: transparent;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-outline-indigo:hover {
+  background: var(--indigo);
+  color: #fff;
+}
+
 /* ── WhatsApp floating button ── */
 .whatsapp-fab {
   position: fixed;
@@ -1032,6 +1054,7 @@ body.reduce-motion .whatsapp-fab { animation: none; }
       </ul>
       <div class="header-actions">
         <button class="btn btn-ghost" data-open-modal="">Falar com o time</button>
+        <a class="btn btn-outline-indigo" href="https://app.digitalhera.com.br" target="_blank" rel="noopener">Entrar</a>
         <button class="btn btn-primary" data-open-modal="">Quero uma demonstração</button>
         <button class="burger" id="burger" aria-label="Menu"><span></span></button>
       </div>
@@ -1045,6 +1068,7 @@ body.reduce-motion .whatsapp-fab { animation: none; }
   <a href="#como">Como funciona</a>
   <a href="#segmentos">Cases</a>
   <a href="#faq">Sobre nós</a>
+  <a href="https://app.digitalhera.com.br" target="_blank" rel="noopener" class="btn btn-outline-indigo btn-lg" style="text-align:center;margin-top:4px;">Entrar</a>
   <button class="btn btn-primary btn-lg" data-open-modal="">Quero uma demonstração</button>
 </nav>
 

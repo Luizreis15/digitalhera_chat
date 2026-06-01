@@ -1,0 +1,13 @@
+{
+  "name": "herachat-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HeraChat — Landing page institucional",
+  "scripts": {
+    "dev": "npx serve . -p 3000 --cors",
+    "start": "npx serve . -p 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
